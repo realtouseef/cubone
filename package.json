@@ -2,11 +2,11 @@
   "name": "cubone",
   "version": "1.0.0",
   "description": "price comparison data scraping",
-  "main": "scraper.ts",
+  "main": "src/scraper.ts",
   "author": "touseef",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node scraper.ts"
+    "dev": "ts-node src/scraper.ts"
   },
   "devDependencies": {
     "@types/node": "^20.4.1",
