@@ -3,4 +3,5 @@ export type ArticleProps = {
   title: string;
   author: string;
   publishedDate: string;
+  readTime: string;
 };

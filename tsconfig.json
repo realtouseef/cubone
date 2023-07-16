@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
-    "lib": ["ES5", "ES6", "DOM"],
-    "outDir": "./dist/",
+    "target": "ES6",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "outDir": "dist",
     "sourceMap": true,
     "noImplicitAny": true,
-    "module": "CommonJS",
-    "target": "ES6",
-    "moduleResolution": "Node",
-    "jsx": "react"
-  }
+    "esModuleInterop": true
+  },
+  "include": ["/**/*.ts"],
+  "exclude": ["node_modules"]
 }
